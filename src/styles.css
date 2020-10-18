@@ -1,3 +1,7 @@
 ol.recipeSteps li {
   list-style-type: none;
 }
+
+ol.recipeSteps label.checked {
+  text-decoration: line-through;
+}
