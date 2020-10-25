@@ -38,6 +38,9 @@ class Timer extends Component {
   tick() {
     this.setState({time: this.state.time + this.props.interval});
     console.log(this.state.time);
+    if (this.state.time >= this.props.duration) {
+      this.stop();
+    }
   }
 
   render() {
