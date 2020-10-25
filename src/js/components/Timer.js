@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 class Timer extends Component {
   constructor(props) {
-    props["interval"] = 1000;
+    props["interval"] = 100;
     super(props);
     this.state = {
       time: 0,
@@ -46,12 +46,29 @@ class Timer extends Component {
   render() {
     const enabled = this.state.enabled;
     return (
-      <div className="timerContainer">
-        <div className="timer">
-          <button onClick={this.toggle}>{enabled ? "⏸️" : "▶️"}</button>
-          <button onClick={this.stop}>⏹️</button>
+      <div>
+        <ProgressionBar time={this.state.time} duration={this.props.duration} />
+        <div className="timerContainer">
+          <div className="timer">
+            <button onClick={this.toggle}>{enabled ? "⏸️" : "▶️"}</button>
+            <button onClick={this.stop}>⏹️</button>
+          </div>
         </div>
       </div>
+    );
+  }
+}
+
+class ProgressionBar extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const pct = this.props.time / this.props.duration * 100;
+    const style = {top: pct + "%"};
+    return (
+      <div style={style} className="progressionBar">{'\u00A0'}</div>
     );
   }
 }
