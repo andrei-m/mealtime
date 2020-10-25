@@ -5,3 +5,17 @@ ol.recipeSteps li {
 ol.recipeSteps label.checked {
   text-decoration: line-through;
 }
+
+div.timerContainer {
+  float: right;
+  width: 100px;
+}
+
+div.timer {
+  position: fixed;
+}
+
+div.timer button {
+  margin-left: 5px;
+  font-size: 30;
+}
