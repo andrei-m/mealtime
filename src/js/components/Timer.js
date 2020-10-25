@@ -37,7 +37,6 @@ class Timer extends Component {
 
   tick() {
     this.setState({time: this.state.time + this.props.interval});
-    console.log(this.state.time);
     if (this.state.time >= this.props.duration) {
       this.stop();
     }
@@ -47,7 +46,11 @@ class Timer extends Component {
     const enabled = this.state.enabled;
     return (
       <div>
-        <ProgressionBar time={this.state.time} duration={this.props.duration} />
+        <ProgressionBar
+        time={this.state.time}
+        duration={this.props.duration}
+        enabled={this.state.time > 0}/>
+
         <div className="timerContainer">
           <div className="timer">
             <button onClick={this.toggle}>{enabled ? "⏸️" : "▶️"}</button>
@@ -66,7 +69,11 @@ class ProgressionBar extends Component {
 
   render() {
     const pct = this.props.time / this.props.duration * 100;
-    const style = {top: pct + "%"};
+    const style = {
+      top: pct + "%",
+      display: this.props.enabled ? "block" : "none"
+    };
+
     return (
       <div style={style} className="progressionBar">{'\u00A0'}</div>
     );
