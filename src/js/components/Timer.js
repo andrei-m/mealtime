@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
+import TimerConfig from "./TimerConfig";
+
 class Timer extends Component {
   constructor(props) {
-    props["interval"] = 100;
+    props["interval"] = TimerConfig.tickInterval;
     super(props);
     this.state = {
       time: 0,
@@ -46,7 +48,7 @@ class Timer extends Component {
         <ProgressionBar
         time={this.state.time}
         enabled={this.state.time > 0}
-        offset={50}
+        offset={TimerConfig.pxOffset}
         />
 
         <div className="timerContainer">

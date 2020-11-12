@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
+import TimerConfig from "./TimerConfig";
+
 class Recipe extends Component {
   render() {
     const r = this.props.recipe;
@@ -45,7 +47,7 @@ class Step extends Component {
     render() {
       const style = {};
       if (this.props.duration) {
-        style["padding-bottom"] = this.props.duration + "px";
+        style["padding-bottom"] = this.props.duration * TimerConfig.pxPerSecond + "px";
       }
 
       return (
