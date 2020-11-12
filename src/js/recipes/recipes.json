@@ -127,6 +127,54 @@
           "duration": 900
         }
       ]
+    },
+    {
+      "name": "Roasted Delicata Squash",
+      "tags": [
+        "side",
+        "sweet",
+        "dinner",
+        "starchy"
+      ],
+      "ingredients": [
+        {
+          "name": "delicata squash",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tablespoon"
+        }
+      ],
+      "prep": [
+        {
+          "description": "wash the squash under water with a brush"
+        },
+        {
+          "description": "slice off the ends of the squash, then cut in half lengthwise, and scoop out seeds and innards"
+        },
+        {
+          "description": "slice each half into quarter-inch width segments"
+        },
+        {
+          "description": "place segments onto a baking sheet. Add olive oil, then a couple pinches of salt and generous shake of pepper"
+        },
+        {
+          "description": "use your hands to spread oil and seasonings around squash segments. Make sure each segment has a light coating of oil"
+        }
+      ],
+      "cook": [
+        {
+          "description": "bake for 20 minutes",
+          "duration": 1200
+        },
+        {
+          "description": "flip segments with a spatula, then bake for 15 more minutes. Squash should be browned and very soft when done",
+          "duration": 900
+        }
+      ]
     }
   ]
 }
