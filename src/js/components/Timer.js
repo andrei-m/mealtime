@@ -37,9 +37,6 @@ class Timer extends Component {
 
   tick() {
     this.setState({time: this.state.time + this.props.interval});
-    if (this.state.time >= this.props.duration) {
-      this.stop();
-    }
   }
 
   render() {
@@ -48,8 +45,9 @@ class Timer extends Component {
       <div>
         <ProgressionBar
         time={this.state.time}
-        duration={this.props.duration}
-        enabled={this.state.time > 0}/>
+        enabled={this.state.time > 0}
+        offset={50}
+        />
 
         <div className="timerContainer">
           <div className="timer">
@@ -68,9 +66,8 @@ class ProgressionBar extends Component {
   }
 
   render() {
-    const pct = this.props.time / this.props.duration * 100;
     const style = {
-      top: pct + "%",
+      top: this.props.time / 1000 + this.props.offset + "px",
       display: this.props.enabled ? "block" : "none"
     };
 

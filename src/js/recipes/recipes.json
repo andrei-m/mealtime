@@ -70,51 +70,61 @@
           "description": "Place butter in a large mixing bowl"
         },
         {
-          "description": "Use the microplane to zest the lemon over the butter"
+          "description": "Use the microplane to zest the lemon over the butter",
+          "duration": 60
         },
         {
-          "description": "Add sugar to the mixing bowl; mix until well-combined"
+          "description": "Add sugar to the mixing bowl; mix until well-combined",
+          "duration": 120
         },
         {
-          "description": "Crack the egg and add it to the bowl"
+          "description": "Crack the egg and add it to the bowl",
+          "duration": 30
         },
         {
-          "description": "Add vanilla extract to the bowl; mix until well-combined"
+          "description": "Add vanilla extract to the bowl; mix until well-combined",
+          "duration": 120
         },
         {
           "description": "Place blueberries into a separate bowl"
         },
         {
-          "description": "Add a quarter-cup flour to the blueberry bowl; toss the blueberries in the flour until coated"
+          "description": "Add a quarter-cup flour to the blueberry bowl; toss the blueberries in the flour until coated",
+          "duration": 60
         },
         {
           "description": "Place the remaining flour into a separate bowl"
         },
         {
-          "description": "Add salt and baking powder to the flour bowl; whisk until combined"
+          "description": "Add salt and baking powder to the flour bowl; whisk until combined",
+          "duration": 60
         },
         {
           "description": "Position the center-rack in the oven; start pre-heating to 375 degrees F"
         },
         {
-          "description": "Slowly add dry flour mixture to the wet ingredients; alternate with pouring in milk; mix until well-combined"
+          "description": "Slowly add dry flour mixture to the wet ingredients; alternate with pouring in milk; mix until well-combined",
+          "duration": 180
         },
         {
-          "description": "Line muffin tin with baking cups"
+          "description": "Line 12 cup muffin tin with baking cups"
         },
         {
-          "description": "Use the disher to evenly distribute batter to baking cups"
+          "description": "Use the disher to evenly distribute batter to baking cups",
+          "duration": 90
         }
       ],
       "cook": [
         {
-          "description": "Place muffin tin into oven and bake for 26 minutes"
+          "description": "Place muffin tin into oven and bake for 26 minutes",
+          "duration": 1560
         },
         {
           "description": "Check for internal temperature of 209 degrees F in the center of the largest muffin"
         },
         {
-          "description": "Let cool for 15 minutes"
+          "description": "Let cool for 15 minutes",
+          "duration": 900
         }
       ]
     }

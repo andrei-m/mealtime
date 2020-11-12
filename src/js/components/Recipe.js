@@ -17,8 +17,8 @@ class Steps extends Component {
   render() {
     const allSteps = this.props.prep.concat(this.props.cook);
     var stepItems = [];
-    for (var i = 0; i < allSteps.length; i++) {
-      stepItems.push(<Step name={allSteps[i].description} />);
+    for (const step of allSteps) {
+      stepItems.push(<Step name={step.description} duration={step.duration} />);
     }
     return (
       <ol className="recipeSteps">{stepItems}</ol>
@@ -43,8 +43,13 @@ class Step extends Component {
     }
 
     render() {
+      const style = {};
+      if (this.props.duration) {
+        style["padding-bottom"] = this.props.duration + "px";
+      }
+
       return (
-        <li>
+        <li style={style}>
           <label className={this.state.isChecked ? "checked" : ""}>
             <input
               type="checkbox"
