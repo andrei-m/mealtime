@@ -2,7 +2,12 @@
   "recipes": [
     {
       "name": "Lemon Blueberry Muffins",
-      "tags": ["pastry", "breakfast", "sweet", "baking"],
+      "tags": [
+        "pastry",
+        "breakfast",
+        "sweet",
+        "baking"
+      ],
       "equipment": [
         "12 slot muffin tin",
         "microplane",
@@ -58,25 +63,59 @@
         }
       ],
       "prep": [
-        "Get butter to room temperature; take it out of the fridge for a few hours until it is very soft to the touch",
-        "Place butter in a large mixing bowl",
-        "Use the microplane to zest the lemon over the butter",
-        "Add sugar to the mixing bowl; mix until well-combined",
-        "Crack the egg and add it to the bowl",
-        "Add vanilla extract to the bowl; mix until well-combined",
-        "Place blueberries into a separate bowl",
-        "Add a quarter-cup flour to the blueberry bowl; toss the blueberries in the flour until coated",
-        "Place the remaining flour into a separate bowl",
-        "Add salt and baking powder to the flour bowl; whisk until combined",
-        "Position the center-rack in the oven; start pre-heating to 375 degrees F",
-        "Slowly add dry flour mixture to the wet ingredients; alternate with pouring in milk; mix until well-combined",
-        "Line muffin tin with baking cups",
-        "Use the disher to evenly distribute batter to baking cups"
+        {
+          "description": "Get butter to room temperature; take it out of the fridge for a few hours until it is very soft to the touch"
+        },
+        {
+          "description": "Place butter in a large mixing bowl"
+        },
+        {
+          "description": "Use the microplane to zest the lemon over the butter"
+        },
+        {
+          "description": "Add sugar to the mixing bowl; mix until well-combined"
+        },
+        {
+          "description": "Crack the egg and add it to the bowl"
+        },
+        {
+          "description": "Add vanilla extract to the bowl; mix until well-combined"
+        },
+        {
+          "description": "Place blueberries into a separate bowl"
+        },
+        {
+          "description": "Add a quarter-cup flour to the blueberry bowl; toss the blueberries in the flour until coated"
+        },
+        {
+          "description": "Place the remaining flour into a separate bowl"
+        },
+        {
+          "description": "Add salt and baking powder to the flour bowl; whisk until combined"
+        },
+        {
+          "description": "Position the center-rack in the oven; start pre-heating to 375 degrees F"
+        },
+        {
+          "description": "Slowly add dry flour mixture to the wet ingredients; alternate with pouring in milk; mix until well-combined"
+        },
+        {
+          "description": "Line muffin tin with baking cups"
+        },
+        {
+          "description": "Use the disher to evenly distribute batter to baking cups"
+        }
       ],
       "cook": [
-        "Place muffin tin into oven and bake for 26 minutes",
-        "Check for internal temperature of 209 degrees F in the center of the largest muffin",
-        "Let cool for 15 minutes"
+        {
+          "description": "Place muffin tin into oven and bake for 26 minutes"
+        },
+        {
+          "description": "Check for internal temperature of 209 degrees F in the center of the largest muffin"
+        },
+        {
+          "description": "Let cool for 15 minutes"
+        }
       ]
     }
   ]

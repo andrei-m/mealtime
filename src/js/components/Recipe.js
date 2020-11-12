@@ -18,7 +18,7 @@ class Steps extends Component {
     const allSteps = this.props.prep.concat(this.props.cook);
     var stepItems = [];
     for (var i = 0; i < allSteps.length; i++) {
-      stepItems.push(<Step name={allSteps[i]} />);
+      stepItems.push(<Step name={allSteps[i].description} />);
     }
     return (
       <ol className="recipeSteps">{stepItems}</ol>
