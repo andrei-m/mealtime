@@ -8,7 +8,7 @@ class Viewer extends Component {
     return (
       <div>
         <div className="menu">
-          <Timer duration={60000} />
+          <Timer />
         </div>
         <Recipe recipe={this.props.recipes[0]} />
       </div>
