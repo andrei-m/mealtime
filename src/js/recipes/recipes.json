@@ -175,6 +175,76 @@
           "duration": 900
         }
       ]
+    },
+    {
+      "name": "Seared / Roasted Pork Chops",
+      "tags": [
+        "dinner",
+        "pork"
+      ],
+      "ingredients": [
+        {
+          "name": "pork chop (boneless or bone-in; the thicker, the better)",
+          "quantity": 2,
+          "unit": "unit"
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "fresh rosemary",
+          "quantity": 1,
+          "unit": "bunch"
+        },
+        {
+          "name": "butter",
+          "quantity": 0.5,
+          "unit": "stick"
+        },
+        {
+          "name": "fresh garlic",
+          "quantity": 2,
+          "unit": "clove"
+        }
+      ],
+      "prep": [
+        {
+          "description": "finely chop the rosemary"
+        },
+        {
+          "description": "mince the garlic cloves"
+        },
+        {
+          "description": "season the pork chops with salt and pepper on both sides"
+        },
+        {
+          "description": "preheat the oven to 375 degrees Fahrenheit"
+        }
+      ],
+      "cook": [
+        {
+          "description": "slice the butter into one-tablespoon segments, then microwave to melt",
+          "duration": 60
+        },
+        {
+          "description": "mix rosemary and garlic into the melted butter",
+          "duration": 60
+        },
+        {
+          "description": "heat olive oil on an oven-safe pan or skillet",
+          "duration": 120
+        },
+        {
+          "description": "once oil heats up, sear the pork chops four minutes total on each side until browned. If thickness allows, also sear any fatty side to render off the fat as much as possible",
+          "duration": 600
+        },
+        {
+          "description": "brush the top with the garlicky rosemary butter, then roast on the center rack until thickest part of each pork chop comes to temperature: 140 degrees Fahrenheit.",
+          "duration": 600
+        }
+      ]
     }
   ]
 }
