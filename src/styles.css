@@ -27,3 +27,7 @@ div.progressionBar {
   background-color: red;
   z-index: -1;
 }
+
+div.recipeContainer {
+  float: left;
+}

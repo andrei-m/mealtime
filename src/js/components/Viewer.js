@@ -45,8 +45,10 @@ class Viewer extends Component {
 class MultiViewer extends Component {
   render() {
     var recipes = [];
+    var width = this.props.selectedRecipes.length > 0 ? Math.round(100 / this.props.selectedRecipes.length) : 100;
+
     for (const r of this.props.selectedRecipes) {
-      recipes.push(<Recipe recipe={r} />);
+      recipes.push(<Recipe recipe={r} width={width} />);
     }
 
     return (

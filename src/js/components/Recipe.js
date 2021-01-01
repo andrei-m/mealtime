@@ -6,8 +6,10 @@ import TimerConfig from "./TimerConfig";
 class Recipe extends Component {
   render() {
     const r = this.props.recipe;
+    const style = {width: this.props.width + "%"};
+
     return (
-      <div>
+      <div style={style} className="recipeContainer">
         <h2>{r.name}</h2>
         <Steps prep={r.prep} cook={r.cook} />
       </div>
