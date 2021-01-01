@@ -5,7 +5,6 @@ import TimerConfig from "./TimerConfig";
 
 class Timer extends Component {
   constructor(props) {
-    props["interval"] = TimerConfig.tickInterval;
     super(props);
     this.state = {
       time: 0,
@@ -24,7 +23,7 @@ class Timer extends Component {
 
   start() {
     this.setState({enabled: true});
-    this.timer = setInterval(this.tick, this.props.interval);
+    this.timer = setInterval(this.tick, TimerConfig.tickInterval);
   }
 
   pause() {
@@ -38,7 +37,7 @@ class Timer extends Component {
   }
 
   tick() {
-    this.setState({time: this.state.time + this.props.interval});
+    this.setState({time: this.state.time + TimerConfig.tickInterval});
   }
 
   render() {
