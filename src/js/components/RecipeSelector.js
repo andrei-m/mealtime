@@ -32,7 +32,7 @@ class RecipeSelector extends Component {
         <select value={this.state.value} onChange={this.handleChange}>
           {options}
         </select>
-        <input type="submit" value="+Add" />
+        <input className="add" type="submit" value="+Add" />
       </form>
     );
   }

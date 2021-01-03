@@ -31,3 +31,7 @@ div.progressionBar {
 div.recipeContainer {
   float: left;
 }
+
+input.add {
+  margin-left: 3px;
+}
