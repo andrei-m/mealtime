@@ -4,13 +4,25 @@ import ReactDOM from "react-dom";
 import TimerConfig from "./TimerConfig";
 
 class Recipe extends Component {
+  constructor(props) {
+    super(props);
+    this.handleClose = this.handleClose.bind(this);
+  }
+
+  handleClose(event) {
+    this.props.closeHandler();
+  }
+
   render() {
     const r = this.props.recipe;
     const style = {width: this.props.width + "%"};
 
     return (
       <div style={style} className="recipeContainer">
-        <h2>{r.name}</h2>
+        <div>
+          <h2>{r.name}</h2>
+          <input className="close" type="button" value="x" onClick={this.handleClose} />
+        </div>
         <Steps prep={r.prep} cook={r.cook} />
       </div>
     );

@@ -35,3 +35,7 @@ div.recipeContainer {
 input.add {
   margin-left: 3px;
 }
+
+input.close {
+  float: right;
+}
