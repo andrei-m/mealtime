@@ -45,4 +45,6 @@ input.add {
 
 input.close {
   float: right;
+  margin-left: 3px;
+  margin-right: 3px;
 }
