@@ -245,6 +245,148 @@
           "duration": 600
         }
       ]
+    },
+    {
+      "name": "Sausage and sweet potato chili",
+      "tags": [
+        "dinner",
+        "soup"
+      ],
+      "ingredients": [
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "red bell pepper",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "name": "fresh garlic",
+          "quantity": 3,
+          "unit": "clove"
+        },
+        {
+          "name": "tomato paste",
+          "quantity": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "sweet italian sausage",
+          "quantity": 1,
+          "unit": "pound"
+        },
+        {
+          "name": "chili powder",
+          "quantity": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "dried oregano",
+          "quantity": 1,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "cayenne pepper",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "sweet potato",
+          "quantity": 4,
+          "unit": "unit"
+        },
+        {
+          "name": "unsalted chicken stock",
+          "quantity": 3,
+          "unit": "cup"
+        },
+        {
+          "name": "diced tomatoes (1 medium can)",
+          "quantity": 14.5,
+          "unit": "ounce"
+        },
+        {
+          "name": "jalapeno",
+          "quantity": 1,
+          "unit": "unit"
+        }
+      ],
+      "prep": [
+        {
+          "description": "measure out the spices"
+        },
+        {
+          "description": "peel potatoes and cut into roughly 1 inch cubes"
+        },
+        {
+          "description": "peel and mince the garlic"
+        },
+        {
+          "description": "peel and slice the onion"
+        },
+        {
+          "description": "slice the sausage into roughly half-inch slices"
+        },
+        {
+          "description": "slice jalepeno into small slices. Leave the seeds in."
+        }
+      ],
+      "cook": [
+        {
+          "description": "add olive oil to a big soup pot and heat up to medium heat",
+          "duration": 180
+        },
+        {
+          "description": "add red bell pepper, onion, and jalapeno then cook for 5m. Stir often.",
+          "duration": 300
+        },
+        {
+          "description": "add garlic and cook for another 1m. Keep stirring",
+          "duration": 60
+        },
+        {
+          "description": "add tomato paste and stir to coat other ingredients",
+          "duration": 30
+        },
+        {
+          "description": "add sausage and cook for 7m. Keep stirring regularly and mash up the sausage meat as much as possible with a spoon to cook evenly.",
+          "duration": 420
+        },
+        {
+          "description": "add all dry spices, and season with salt and pepper. Stir some more.",
+          "duration": 60
+        },
+        {
+          "description": "Add sweet potatoes, chicken stock, and canned tomatoes. Stir to cover all of the potatoes. Add a bit more chicken stock to cover if the initial 3 cups doesn't do it.",
+          "duration": 60
+        },
+        {
+          "description": "Bring pot to a boil",
+          "duration": 300
+        },
+        {
+          "description": "Bring heat down to a simmer for 15-20m. Test potatoes with a fork for tenderness before calling it done",
+          "duration": 900
+        }
+      ]
     }
   ]
 }
