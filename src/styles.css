@@ -30,6 +30,7 @@ div.progressionBar {
 
 div.recipeContainer {
   float: left;
+  max-width: 40em;
 }
 
 input.add {
