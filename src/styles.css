@@ -31,6 +31,12 @@ div.progressionBar {
 div.recipeContainer {
   float: left;
   max-width: 40em;
+  border-style: dashed;
+  border-width: 0px 1px 0px 0px;
+}
+
+ol.recipeSteps {
+  padding-inline-start: 10px;
 }
 
 input.add {
